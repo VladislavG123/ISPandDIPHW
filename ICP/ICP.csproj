@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B3AAB849-EA90-481F-AF8D-FC02600ACFEC}</ProjectGuid>
+    <ProjectGuid>{05F9C80F-660F-4490-A061-E017D5E4221E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DIPAndICPHomework</RootNamespace>
-    <AssemblyName>DIPAndICPHomework</AssemblyName>
+    <RootNamespace>ICP</RootNamespace>
+    <AssemblyName>ICP</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="After.cs" />
+    <Compile Include="Before.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
